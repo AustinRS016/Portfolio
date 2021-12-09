@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Soccer Map</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<div id="header">
+
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
+							<h1 id="title">Austin Santamaria</h1>
+							<p>U.W. Student</p>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="https://austinrs016.github.io/Portfolio/#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
+								<li><a href="https://austinrs016.github.io/Portfolio/#portfolio" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a></li>
+								<li><a href="https://austinrs016.github.io/Portfolio/#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
+								<li><a href="https://austinrs016.github.io/Portfolio/#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+			</div>
+		<!-- Content -->
+		<div id="main">
+				<h2 style="text-align: center; padding: 1em">Birth Places of Bundesliga Soccer Players</h2>
+				<div id="map" style="height: 70vh; position: relative; padding-bottom: 15px;">
+				<iframe src="https://austinrs016.github.io/soccerMap/" title="Soccer Map" style="height: 100%; width: 100%; position: relative"></iframe>
+			</div>
+			<p style="padding-left: 2%;">This interactive map depicts the birth cities of Bundesliga soccer players, symbolized by team logo. </p>
+			<hr>
+			<p style="padding-left: 2%; padding-right: 2%;"> This map uses MapBox GL JS, the soccer player data is from trasnfermarkt.de, it was geolocated using the Nominatim geocoder from Geopy and overlapping coordinates were modified by me. Click <a href="https://github.com/AustinRS016/soccerMapScripts" target="_blank">here</a> to see the python scripts used for geocoding and modifying the coordinates. </p>
+		</div>
+	</body>
